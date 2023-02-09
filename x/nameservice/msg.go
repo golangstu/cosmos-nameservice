@@ -19,7 +19,7 @@ func NewMsgSetName(name string, value string, owner sdk.AccAddress) MsgSetName {
 		Owner: owner,
 	}
 }
-func (msg MsgSetName) Router() string {
+func (msg MsgSetName) Route() string {
 	return "nameservice"
 }
 
