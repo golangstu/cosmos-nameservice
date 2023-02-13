@@ -90,3 +90,7 @@ func (query QueryResNames) String() string {
 type QueryResResolve struct {
 	Value string `json:"value"`
 }
+
+func (query QueryResResolve) String() string {
+	return query.Value
+}
