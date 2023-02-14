@@ -1,16 +1,16 @@
 package cli
 
 import (
-	"cosmos-nameservice/x/nameservice"
 	"github.com/cosmos/cosmos-sdk/client/context"
 	"github.com/cosmos/cosmos-sdk/client/utils"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtxb "github.com/cosmos/cosmos-sdk/x/auth/client/txbuilder"
+	"github.com/golangstu/cosmos-nameservice/x/nameservice"
 	"github.com/spf13/cobra"
 )
 
-func GetCmdByName(cdc *codec.Codec) *cobra.Command {
+func GetCmdBuyName(cdc *codec.Codec) *cobra.Command {
 	return &cobra.Command{
 		Use:   "buy-name [name] [amount]",
 		Short: "bid for existing name or claim new name",

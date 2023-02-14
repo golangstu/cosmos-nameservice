@@ -1,4 +1,4 @@
-module cosmos-nameservice
+module github.com/golangstu/cosmos-nameservice
 
 go 1.19
 

@@ -1,14 +1,14 @@
 package cli
 
 import (
-	"cosmos-nameservice/x/nameservice"
 	"fmt"
 	"github.com/cosmos/cosmos-sdk/client/context"
 	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/golangstu/cosmos-nameservice/x/nameservice"
 	"github.com/spf13/cobra"
 )
 
-func GetResolveName(queryRoute string, cdc *codec.Codec) *cobra.Command {
+func GetCmdResolveName(queryRoute string, cdc *codec.Codec) *cobra.Command {
 	return &cobra.Command{
 		Use:   "resolve [name]",
 		Short: "resolve [name]",
