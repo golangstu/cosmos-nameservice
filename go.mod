@@ -9,9 +9,6 @@ require (
 	github.com/spf13/viper v1.3.2
 	github.com/tendermint/go-amino v0.14.1
 	github.com/tendermint/tendermint v0.31.0-dev0
-)
-
-require (
 	github.com/VividCortex/gohistogram v1.0.0 // indirect
 	github.com/bartekn/go-bip39 v0.0.0-20171116152956-a05967ea095d // indirect
 	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973 // indirect
