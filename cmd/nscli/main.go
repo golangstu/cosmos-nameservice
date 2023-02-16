@@ -1,4 +1,4 @@
-package nsdcli
+package nscli
 
 import (
 	"os"
