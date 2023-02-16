@@ -1,4 +1,4 @@
-package app
+package name_service
 
 import (
 	"encoding/json"

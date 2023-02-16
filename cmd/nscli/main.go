@@ -1,6 +1,7 @@
 package nscli
 
 import (
+	app "github.com/golangstu/cosmos-nameservice"
 	"os"
 	"path"
 
@@ -19,7 +20,6 @@ import (
 	auth "github.com/cosmos/cosmos-sdk/x/auth/client/rest"
 	bankcmd "github.com/cosmos/cosmos-sdk/x/bank/client/cli"
 	bank "github.com/cosmos/cosmos-sdk/x/bank/client/rest"
-	app "github.com/golangstu/cosmos-nameservice/app"
 	nsclient "github.com/golangstu/cosmos-nameservice/x/nameservice/client"
 	nsrest "github.com/golangstu/cosmos-nameservice/x/nameservice/client/rest"
 )
